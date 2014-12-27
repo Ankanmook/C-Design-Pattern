@@ -1,0 +1,52 @@
+
+Web Services T9  Messenger
+
+Goals
+
+Familiarize  myself with:
+•     Fundamental ideas of rich internet applications (RIA)
+•     Silverlight - one of the current technologies  for client side web technologies
+•     Dealing with a program  that has local application services and remote web (HTTP/HTTPS) based services.
+
+
+
+Overview
+
+During Part A, I published my own working server.
+For  Part B, I created  a client  that connects  to  my server and Ajay’s server.
+My client has the ability to switch servers either  through  the UI or a command  line parameter.
+I implemented most of the functionality of the previous lab (T9 Texting) with changes to the application to split it
+between  a client  side (Silverlight  app  running  in the  browser)  and  a server side piece using Windows Communication
+Foundation (aka, Windows Communication Framework) web service on the server side. 
+
+Requirements
+
+I could toggle  between  predictive  and  non- predictive  mode. In non-predictive mode, the  client is independent of 
+the  web service (it should work without  an internet connection). The  set  of legal words  comes from the file 
+english-words.txt. 
+
+
+Design
+
+How will you split up your architecture between the client and server side? There are many options, most having to do with the nature  of the connection  between  the two sides. Two approaches  that come to mind are transferring each key stroke across the network; another  is to send complete digit sequences across. But  remember  that the display has to somehow be updated every time a button is pushed.  Here are the design constraints within  which you must  work.
+The entire list of words never exist on  the client  side.
+The mode toggle control  happens  completely  on the client side.
+
+Observations
+One of the most interesting challenges I faced is how to deal with the fact that Web Services, like any HTTP-based 
+protocol,  is at its fundamental level stateless. I utilized WCF  Web Service for my server side.
+
+Finally,  I included a design document that explains the design decisions I made. I contains following information
+•     Which (whose) alternate server I used
+•     What  components  exist on the client side
+•     What  components  exist on the server side
+•	    Why I selected that server.
+•     Why I designed my server that way you did, and who is using it.
+
+
+Helpful links
+
+•     Silverlight Web Services
+•     WCF  Sessions
+
+
