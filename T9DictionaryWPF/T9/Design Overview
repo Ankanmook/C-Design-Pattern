@@ -1,0 +1,104 @@
+WPF (T9 Messager)
+
+Goals
+Familiarize myself with the WPF framework, using the MVC design pattern, event driven programming, 
+and built in data structures for .NET
+
+Overview
+Often times when calling an once, we are given the option to do an automated looked of the employee phone directory 
+by using your keypad on your phone. For example, to get an employee with the last name of Brown, users would type in 
+27696. In another example if one types 2-3-3-7, there are many legitimate words that could be spelled, since the \2" 
+key represents \a", \b" and \c" the \3" key represents \d", \e", and \f", and the \7" key represents \p", \q", \r", and
+\s". Legitimate words might include \adds", \beer", \beds", \bees" and \beep", depending on the
+dictionary from which one is working. In some older systems, users would be required to type 22 77 666 9 66. In these systems, \2"
+represents \A", \22" represents \B", and \222" represents \C". Clearly the former system is more complicated as it requires
+a dictionary to do matching. Your project will support both methods for input depending on user preference.
+
+Requirements
+Using WPF yI built a graphical representation of these parts of a cell phone into a 4-row-by-3-column 12-key key pad. 
+The symbols assigned to the keys, in row-major order, are:
+{ 1
+{ 2,a,b,c
+{ 3,d,e,f
+{ 4,g,h,i
+{ 5,j,k,l
+{ 6,m,n,o
+{ 7,p,q,r,s
+{ 8,t,u,v
+{ 9,w.x,y,z
+{ *,<
+{ 0,~
+{ # (space)
+ a one-line alphanumeric display
+
+The 4x3 array of buttons are to be clicked by the mouse.
+
+Non-Predictive Mode
+If you are NOT in predictive mode, the application behavior is simple. Multiple clicks of a button
+will result in a change of the letter. For example, clicking \2" and waiting will cause the letter \A"
+to appear. Clicking \2" twice rapidly will cause a \B". The trick here was making my program
+correctly deal with this behavior, as there are dierent events generated for MouseDoubleClick
+versus a regular click. 
+
+Predictive Mode
+My program will always interpret button 2-9 presses as letters. The challenge is to decide which
+letter was intended. The output text is at the bottom is the display. It gets updated as the user
+presses the buttons. The display holds at least 20 characters and is not more than one line. At any 
+point in time the display shows all previously typed words and the program's first choice for the word
+currently being typed. This could be a complete word or the prex of an incomplete word. If no legal word
+is possible using the prex typed, the display shows hyphens ("-") whose count is equal to the number of 
+keys pressed so far. The button marked \<" is the backspace. It deletes the most recent button press from
+the letter rows. The application behaves as if the remaining letters were pressed for the frst time.
+The button marked 0 / ~(tilde) is the next function. It circulates to the next word choice that
+can be assembled from the sequence of button presses so far. Its behavior is only well-defined if
+a complete word is showing. If only a prefix of a valid word is showing, the behavior is undefined
+except that it does not impede the user from continuing to use the application normally. If the
+"invalid prefix" hyphen string is showing, the next button has no effect.
+
+There is no symbol under \#". It is the space button. Once the user enters a space, she or he may
+press a backspace to delete the space, and in addition to the space, the previous word is deleted.
+The set of legal words comes from a file english-words.txt. It is a text file containing
+one word per line. It contains about 211,000 words, all lower text. I ignored case assuming all letters
+in lower case, i.e., there is no way to \shift". 
+
+Design
+For the model part of the software, one design approach may immediatedly come to mind.
+In computational algorithm design, on-line means doing things at the last minute, or \in real time".
+A sequence of buttons pressed so far (since the last space) is kept, perhaps in a list. Each time
+the user presses another button, the sequence is augmented and a list of possible word choices is
+generated from that sequence. This is a somewhat tricky counting problem. Think of the algorithm
+you'd have to write to generate a sequence of integers in order when the integers are represented
+by sequences of digits { but then skip some that are considered invalid.
+Here is a recursive counting algorithm. To count a sequence of buttons is to return all possible
+character strings that can be generated from it. To count an N-character sequence of buttons:
+
+If N i 1
+Create a set of singleton strings using the possible characters from that button .
+else
+for each possible character c from the first button of the sequence
+{
+  Call the set you get from count ing the sequence made from the
+  2nd through the Nth buttonss
+for each string t in s
+  {
+    Place c at the beginning of t , and place that string in the
+    set to be returned .
+  }
+}
+
+Notice that this generates all possible strings, be they valid words or not. I go through
+all the words in the set and eliminate the invalid ones. I am then left with a small set of valid
+words through which the user can rotate when he or she hits the next button.
+Note that I cannot elimiate invalid words as I go, because prefixes of valid words may not
+be valid. In addition, every time the user hits an additional button, the entire process must be
+repeated, because the set of valid words is now entirely different.
+
+Technology
+For this project I have created a WPF project and used XAML to specify the user interface. 
+This project implements partial MVC-style by trying to adhear to the principals of the pattern.
+
+Extra Info
+There are several more interesting, and efficient, ways to solve the problem.
+Some possibilities include a linked hash table, linear regular expression matching, use of the LINQ
+functions in .NET (, and a variation on the trie associative data structure.
+Some of these choices favor ease of development, others performance.
