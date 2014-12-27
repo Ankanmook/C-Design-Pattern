@@ -1,0 +1,12 @@
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part1\T9WcfService\T9WcfService\bin\T9WcfService.dll
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part1\T9WcfService\T9WcfService\obj\Debug\T9WcfService.csprojResolveAssemblyReference.cache
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part1\T9WcfService\T9WcfService\obj\Debug\T9WcfService.g.resources
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part1\T9WcfService\T9WcfService\obj\Debug\T9WcfService.dll
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part1\T9WcfService\T9WcfService\obj\Debug\T9WcfService.pdb
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part1\T9WcfService\T9WcfService\bin\T9WcfService.pdb
+F:\Project\AnkanServer\T9WcfService\T9WcfService\bin\T9WcfService.dll
+F:\Project\AnkanServer\T9WcfService\T9WcfService\bin\T9WcfService.pdb
+F:\Project\AnkanServer\T9WcfService\T9WcfService\obj\Debug\T9WcfService.csprojResolveAssemblyReference.cache
+F:\Project\AnkanServer\T9WcfService\T9WcfService\obj\Debug\T9WcfService.g.resources
+F:\Project\AnkanServer\T9WcfService\T9WcfService\obj\Debug\T9WcfService.dll
+F:\Project\AnkanServer\T9WcfService\T9WcfService\obj\Debug\T9WcfService.pdb

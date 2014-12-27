@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="T9WcfService.SilverlightService" CodeBehind="SilverlightService.svc.cs" %>

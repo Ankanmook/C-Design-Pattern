@@ -1,0 +1,24 @@
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part2\T9Client\T9Client\Bin\Debug\T9Client.dll
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part2\T9Client\T9Client\Bin\Debug\T9Client.pdb
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part2\T9Client\T9Client\Bin\Debug\AppManifest.xaml
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part2\T9Client\T9Client\Bin\Debug\T9Client.xap
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part2\T9Client\T9Client\Bin\Debug\T9ClientTestPage.html
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part2\T9Client\T9Client\obj\Debug\T9Client.csprojResolveAssemblyReference.cache
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part2\T9Client\T9Client\obj\Debug\App.g.cs
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part2\T9Client\T9Client\obj\Debug\MainPage.g.cs
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part2\T9Client\T9Client\obj\Debug\T9Client.g.resources
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part2\T9Client\T9Client\obj\Debug\T9Client.dll
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part2\T9Client\T9Client\obj\Debug\T9Client.pdb
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part2\T9Client\T9Client\obj\Debug\XapCacheFile.xml
+F:\Project\T9Client\T9Client\Bin\Debug\T9Client.dll
+F:\Project\T9Client\T9Client\Bin\Debug\T9Client.pdb
+F:\Project\T9Client\T9Client\Bin\Debug\AppManifest.xaml
+F:\Project\T9Client\T9Client\Bin\Debug\T9Client.xap
+F:\Project\T9Client\T9Client\Bin\Debug\T9ClientTestPage.html
+F:\Project\T9Client\T9Client\obj\Debug\T9Client.csprojResolveAssemblyReference.cache
+F:\Project\T9Client\T9Client\obj\Debug\App.g.cs
+F:\Project\T9Client\T9Client\obj\Debug\MainPage.g.cs
+F:\Project\T9Client\T9Client\obj\Debug\T9Client.g.resources
+F:\Project\T9Client\T9Client\obj\Debug\T9Client.dll
+F:\Project\T9Client\T9Client\obj\Debug\T9Client.pdb
+F:\Project\T9Client\T9Client\obj\Debug\XapCacheFile.xml

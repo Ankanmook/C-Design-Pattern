@@ -1,0 +1,16 @@
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part1\T9Service\T9Service\bin\Debug\T9Service.exe
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part1\T9Service\T9Service\bin\Debug\T9Service.pdb
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part1\T9Service\T9Service\bin\Debug\T9WcfService.dll
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part1\T9Service\T9Service\bin\Debug\T9WcfService.pdb
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part1\T9Service\T9Service\obj\Debug\T9Service.csprojResolveAssemblyReference.cache
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part1\T9Service\T9Service\obj\Debug\T9Service.exe
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part1\T9Service\T9Service\obj\Debug\T9Service.pdb
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part1\T9Service\T9Service\bin\Debug\T9Service.exe.config
+F:\Project\AnkanServer\T9Service\T9Service\bin\Debug\T9Service.exe.config
+F:\Project\AnkanServer\T9Service\T9Service\obj\Debug\T9Service.exe
+F:\Project\AnkanServer\T9Service\T9Service\obj\Debug\T9Service.pdb
+F:\Project\AnkanServer\T9Service\T9Service\bin\Debug\T9Service.exe
+F:\Project\AnkanServer\T9Service\T9Service\bin\Debug\T9Service.pdb
+F:\Project\AnkanServer\T9Service\T9Service\bin\Debug\T9WcfService.dll
+F:\Project\AnkanServer\T9Service\T9Service\bin\Debug\T9WcfService.pdb
+F:\Project\AnkanServer\T9Service\T9Service\obj\Debug\T9Service.csprojResolveAssemblyReference.cache

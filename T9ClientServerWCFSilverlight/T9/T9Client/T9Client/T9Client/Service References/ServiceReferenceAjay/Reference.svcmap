@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="068f7aae-68f9-44f2-a25c-822f6c70a2f7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:44754/T9Service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="T9Service.wsdl" MetadataType="Wsdl" ID="4551b054-cec9-45f4-b61e-440bc631fd56" SourceId="1" SourceUrl="http://localhost:44754/T9Service.svc?wsdl" />
+    <MetadataFile FileName="T9Service.xsd" MetadataType="Schema" ID="6ca5ff68-6cf4-47b2-9955-02266a1e8407" SourceId="1" SourceUrl="http://localhost:44754/T9Service.svc?xsd=xsd2" />
+    <MetadataFile FileName="T9Service.disco" MetadataType="Disco" ID="5391211a-087d-4469-ac0b-6a1eec5a092b" SourceId="1" SourceUrl="http://localhost:44754/T9Service.svc?disco" />
+    <MetadataFile FileName="T9Service1.xsd" MetadataType="Schema" ID="77af5959-2c2d-4e82-9768-de1fd58922cc" SourceId="1" SourceUrl="http://localhost:44754/T9Service.svc?xsd=xsd0" />
+    <MetadataFile FileName="T9Service2.xsd" MetadataType="Schema" ID="04b8e3f9-7d52-44d3-b21d-6e8d5b02c5e1" SourceId="1" SourceUrl="http://localhost:44754/T9Service.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,10 @@
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part2\T9Client\T9Client.Web\bin\T9Client.Web.dll
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part2\T9Client\T9Client.Web\bin\T9Client.Web.pdb
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part2\T9Client\T9Client.Web\obj\Debug\T9Client.Web.csprojResolveAssemblyReference.cache
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part2\T9Client\T9Client.Web\obj\Debug\T9Client.Web.dll
+F:\EBOOKS & ASSIGNMENTS\C#\C# A\HW3\Part2\T9Client\T9Client.Web\obj\Debug\T9Client.Web.pdb
+F:\Project\T9Client\T9Client.Web\bin\T9Client.Web.dll
+F:\Project\T9Client\T9Client.Web\bin\T9Client.Web.pdb
+F:\Project\T9Client\T9Client.Web\obj\Debug\T9Client.Web.csprojResolveAssemblyReference.cache
+F:\Project\T9Client\T9Client.Web\obj\Debug\T9Client.Web.dll
+F:\Project\T9Client\T9Client.Web\obj\Debug\T9Client.Web.pdb

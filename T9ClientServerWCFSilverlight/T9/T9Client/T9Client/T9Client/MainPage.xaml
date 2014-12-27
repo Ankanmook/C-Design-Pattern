@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="T9Client.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="400" d:DesignWidth="500
+             ">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Button x:Name="btn1" Content="1" HorizontalAlignment="Left" Margin="41,31,0,0" VerticalAlignment="Top" Width="75" Height="37" Click="btn1_Click"/>
+        <Button x:Name="btn2" Content="  2 &#xD;&#xA;abc" HorizontalAlignment="Left" Margin="169,31,0,0" VerticalAlignment="Top" Width="75" Height="37" Click="btn2_Click"/>
+        <Button x:Name="btn3" Content="  3 &#xD;&#xA;def" HorizontalAlignment="Left" Margin="294,31,0,0" VerticalAlignment="Top" Width="75" Height="37" Click="btn3_Click"/>
+        <Button x:Name="btn4" Content="  4 &#xD;&#xA;ghi" HorizontalAlignment="Left" Margin="41,110,0,0" VerticalAlignment="Top" Width="75" Height="37" Click="btn4_Click"/>
+        <Button x:Name="btn5" Content="  5 &#xD;&#xA;jkl" HorizontalAlignment="Left" Margin="169,110,0,0" VerticalAlignment="Top" Width="75" Height="37" Click="btn5_Click"/>
+        <Button x:Name="btn6" Content="  6 &#xD;&#xA;mno" HorizontalAlignment="Left" Margin="294,110,0,0" VerticalAlignment="Top" Width="75" Height="37" Click="btn6_Click"/>
+        <Button x:Name="btn7" Content="   7 &#xD;&#xA;pqrs" HorizontalAlignment="Left" Margin="41,186,0,0" VerticalAlignment="Top" Width="75" Height="37" Click="btn7_Click"/>
+        <Button x:Name="btn8" Content="  8 &#xD;&#xA;tuv" HorizontalAlignment="Left" Margin="169,186,0,0" VerticalAlignment="Top" Width="75" Height="37" Click="btn8_Click"/>
+        <Button x:Name="btn9" Content="   9 &#xD;&#xA;wxyz" HorizontalAlignment="Left" Margin="294,186,0,0" VerticalAlignment="Top" Width="75" Height="37" Click="btn9_Click"/>
+        <Button x:Name="btn10" Content=" * &#xD;&#xA;&lt;" HorizontalAlignment="Left" Margin="41,245,0,0" VerticalAlignment="Top" Width="75" Height="37" Click="btn10_Click"/>
+        <Button x:Name="btn11" Content="0&#xD;&#xA;~" HorizontalAlignment="Left" Margin="169,245,0,0" VerticalAlignment="Top" Width="75" Height="37" Click="btn11_Click"/>
+        <Button x:Name="btn12" Content=" #" HorizontalAlignment="Left" Margin="294,245,0,0" VerticalAlignment="Top" Width="75" Height="37" Click="btn12_Click"/>
+        <TextBox x:Name="txtDictionary" HorizontalAlignment="Left" Height="42" Margin="41,302,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="328"/>
+        <CheckBox x:Name="chkPredictive" Content="Predictive" HorizontalAlignment="Left" Margin="388,302,0,0" VerticalAlignment="Top" Height="17" Checked="chkPredictive_Checked" Unchecked="chkPredictive_Unchecked"/>
+        <RadioButton x:Name="rdAnkan" Content="Ankan Service" HorizontalAlignment="Left" Margin="179,373,0,0" VerticalAlignment="Top" Checked="rdAnkan_Checked"/>
+        <RadioButton x:Name="rdAjay" Content="Ajay Service" HorizontalAlignment="Left" Margin="41,373,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        
+
+    </Grid>
+</UserControl>
+

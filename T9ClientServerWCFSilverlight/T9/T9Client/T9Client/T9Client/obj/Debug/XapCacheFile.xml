@@ -1,0 +1,5 @@
+﻿<xapCache source="F:\Project\T9Client\T9Client\Bin\Debug\T9Client.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="11/15/2013 8:27:44 PM">
+  <file source="F:\Project\T9Client\T9Client\obj\Debug\T9Client.dll" archivePath="T9Client.dll" lastWriteTime="11/15/2013 8:27:43 PM" />
+  <file source="F:\Project\T9Client\T9Client\ServiceReferences.ClientConfig" archivePath="ServiceReferences.ClientConfig" lastWriteTime="11/11/2013 10:20:56 PM" />
+  <file source="F:\Project\T9Client\T9Client\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="11/11/2013 9:34:40 AM" />
+</xapCache>
