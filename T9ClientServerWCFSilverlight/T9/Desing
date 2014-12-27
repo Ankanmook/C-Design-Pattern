@@ -36,12 +36,11 @@ Observations
 One of the most interesting challenges I faced is how to deal with the fact that Web Services, like any HTTP-based 
 protocol,  is at its fundamental level stateless. I utilized WCF  Web Service for my server side.
 
-Finally,  I included a design document that explains the design decisions I made. I contains following information
-•     Which (whose) alternate server I used
-•     What  components  exist on the client side
-•     What  components  exist on the server side
-•	    Why I selected that server.
-•     Why I designed my server that way you did, and who is using it.
+Difficulties and Challenges 
+a) Cross domain policy and client accessibility policy implementation 
+b) Windows 8.1 update: It made some core changes to Silverlight files. I was unable to debug it as my Silverlight Developer Runtime got corrupted. Multiple tries to set it right did not work. I could not debug it. I could only run the code and see changes to it. 
+c) Changing from wshttpbinding to basichttpbinding: Initially I did not pay attention to why my service was not being consumed by T9Client. I came to know later that Silverlight does not deal with wshttpbinding. I asked Ajay to change it as well in order to make sure that our services get consumed. He had made the same mistake as well. 
+d) Use of System.DateTime.Now.Tick instead of System.Diagnostics.StopWatch in Silverlight client Application: Silverlight does not use System.Diagnostics library which we use for StopWatch class. So in order to manage non-predictive mode, I used Tick function to give me time elapsed between two clicks. 10,000 tick equal to one millisecond. For more than .5 second intervals, we appended the letter or we just changed the letter for the word. 
 
 
 Helpful links
