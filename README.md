@@ -10,7 +10,7 @@ Projects:
 
 1) Chained Hash Table: C#
 
-2) T9 Dictionary: Non Predictive and Predictive Mode, C#, WPF, MVC
+2) T9 Dictionary, Non Predictive and Predictive Mode: C#, WPF, MVC
 
 3) T9 DictionaryClientServerWCFSilverlight: C#, WCF,Silverlight, RIA 
 
